@@ -1142,7 +1142,7 @@ int main(int argc, const char **argv_) {
   char **argv, **argi, **argj;
   struct arg arg;
   int error = 0;
-
+//github flow study
   argv = argv_dup(argc - 1, argv_ + 1);
   for (argi = argj = argv; (*argj = *argi); argi += arg.argv_step) {
     memset(&arg, 0, sizeof(arg));
